@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class="conteneur">
+    <div class="sous_conteneur1">
+      <div class="DivPourajouter">
+        <button class="ajouter" id="ajouter">Ajouter un personnel</button>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Nom & Prénom</th>
+              <th>Email</th>
+              <th>Fonction</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="CorpsDuTableau">
+           
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="sous_conteneur2" id="ContenantDuFormulaire">
+      <form method="post" id="formulaire" >
+        <div class="icone" id="Fermer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+</svg>
+
+        </div>
+        <h2>Ajouter un personnel</h2>
+        <input type="text" name="nom" placeholder=" Entrer Votre Nom" required />
+        <input type="text" name="prenom" placeholder="Entrer Votre Prénom" required />
+        <input type="email" name="email" placeholder=" Entrer Votre Email" required />
+        <input type="text" name="fonction" placeholder=" Entrer Votre Fonction" required />
+        <button type="submit" id="envoyer">Ajouter</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+<script src="script.js"></script>
