@@ -86,7 +86,7 @@ formulaire.addEventListener('submit', (e) => {
   Employes.push(objet)
   }
   else{
-    bouton.textContent = 'Modifier';
+    envoyer.textContent = 'Modifier';
     Employes[indexModification].nom = formulaire.elements['nom'].value;
     Employes[indexModification].prenom = formulaire.elements['prenom'].value;
     Employes[indexModification].email = formulaire.elements['email'].value;
