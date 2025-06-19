@@ -20,6 +20,6 @@
 
 ## 🚀 Instructions pour lancer le projet
 
-1. Cloner le dépôt (facultatif) :
+1. Cloner le dépôt  :
    ```bash
    git clone https://github.com/Kennedylight/KennedyKouongaPourOrangeSumerChalenge.git
